@@ -1,0 +1,22 @@
+{
+    "article_id": "unique_article_id",
+    "author_id": "author_user_id",
+    "title": "〇〇のウォーキングスポット紹介",
+    "content": "〇〇の観光地ではこんな景色が楽しめます。おすすめのウォーキングコースも紹介。",
+    "location": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    },
+    "tags": ["ウォーキング", "観光", "おすすめ"],
+    "images": ["image_url1", "image_url2"],
+    "comments": [  // 記事に対するコメント
+      {
+        "comment_id": "comment_id1",
+        "user_id": "commenting_user_id",
+        "comment_text": "とても参考になります！次回行ってみます。",
+        "timestamp": "2025-02-24T10:30:00Z"
+      }
+    ],
+    "likes": 25  // 記事の「いいね」数
+  }
+  

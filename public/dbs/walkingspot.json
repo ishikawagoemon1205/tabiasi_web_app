@@ -1,0 +1,22 @@
+{
+  "spot_id": "unique_spot_id",
+  "user_id": "unique_user_id",  // このスポットを記録したユーザーID
+  "spot_name": "〇〇観光地",
+  "location": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  },
+  "description": "〇〇観光地で素晴らしい景色を見つけました。",
+  "images": ["url_to_image1", "url_to_image2"],  // スポットの画像
+  "points_earned": 10,  // このスポットを投稿して得られるポイント
+  "timestamp": "2025-02-24T10:00:00Z",  // 記録日時
+  "tags": ["観光地", "絶景", "ウォーキング"],  // スポットのタグ
+  "comments": [  // コメント（他のユーザーが投稿した感想）
+    {
+      "comment_id": "comment_id1",
+      "user_id": "commenting_user_id",
+      "comment_text": "本当に綺麗な場所ですね！次回行ってみます。",
+      "timestamp": "2025-02-24T10:30:00Z"
+    }
+  ]
+}

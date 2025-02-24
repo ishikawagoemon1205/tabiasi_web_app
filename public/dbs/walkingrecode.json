@@ -1,0 +1,14 @@
+{
+  "record_id": "unique_record_id",
+  "user_id": "unique_user_id",
+  "walked_spots": [  // 記録したスポットのID（複数）
+    "spot_id1",
+    "spot_id2"
+  ],
+  "total_steps": 12000,  // 歩数
+  "distance": 8.5,  // 距離（km）
+  "duration": 90,  // 時間（分）
+  "calories_burned": 300,  // 消費カロリー
+  "timestamp": "2025-02-24T12:00:00Z",  // 記録日時
+  "points_earned": 30  // このウォーキングで獲得したポイント
+}

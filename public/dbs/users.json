@@ -1,0 +1,11 @@
+{
+  "user_id": "unique_user_id",
+  "username": "sample_user",
+  "email": "user@example.com",
+  "profile_picture": "url_to_profile_picture",
+  "total_points": 500,  // たまったポイント
+  "walking_records": [  // ウォーキングの記録リスト
+    "walking_record_id1",
+    "walking_record_id2"
+  ]
+}

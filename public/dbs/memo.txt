@@ -1,0 +1,32 @@
++---------------------+           +---------------------+            +---------------------+
+|      User           |<--------->|    WalkingRecord    |<--------->|    WalkingSpot      |
++---------------------+           +---------------------+            +---------------------+
+| user_id (PK)        |           | record_id (PK)      |            | spot_id (PK)        |
+| username            |           | user_id (FK)        |            | user_id (FK)        |
+| email               |           | total_steps         |            | spot_name           |
+| profile_picture     |           | distance            |            | location            |
+| total_points        |           | duration            |            | description         |
+| walking_records     |           | calories_burned     |            | images              |
++---------------------+           | timestamp           |            | points_earned       |
+                                 | points_earned       |            | timestamp           |
+                                 +---------------------+            | tags                |
+                                                                    | comments            |
+                                                                    +---------------------+
+         
+                          |                                        |                                  
+                          |                                        |                                 
+                          |                                        |
+                          v                                        v
++---------------------+          +------------------------+      +---------------------+
+|   TravelArticle     |<-------->|       Points           |<---->|    Comments         |
++---------------------+          +------------------------+      +---------------------+
+| article_id (PK)     |          | user_id (FK)           |      | comment_id (PK)     |
+| author_id (FK)      |          | points_earned          |      | user_id (FK)        |
+| title               |          | points_history         |      | comment_text        |
+| content             |          | record_id (FK)         |      | timestamp           |
+| location            |          | activity              |      +---------------------+
+| tags                |          | timestamp             |
+| images              |          +------------------------+
+| comments            |             
+| likes               |
++---------------------+

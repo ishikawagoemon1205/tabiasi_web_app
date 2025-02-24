@@ -1,0 +1,19 @@
+{
+    "user_id": "unique_user_id",
+    "points_earned": 500,  // 現在の総ポイント
+    "points_history": [
+      {
+        "record_id": "unique_record_id",
+        "points": 30,  // その活動で獲得したポイント
+        "activity": "ウォーキング記録投稿",
+        "timestamp": "2025-02-24T14:00:00Z"
+      },
+      {
+        "record_id": "unique_article_id",
+        "points": 10,  // 旅行記事投稿で得たポイント
+        "activity": "旅行記事投稿",
+        "timestamp": "2025-02-23T10:00:00Z"
+      }
+    ]
+  }
+  
