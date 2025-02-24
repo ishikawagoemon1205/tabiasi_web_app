@@ -7,7 +7,7 @@ export default function Home() {
         <header className="fixed w-full h-[132px] shadow-md z-50 flex items-center justify-center">
           <div className="max-w-screen-lg w-full h-full bg-red-100 pt-[44px] px-[44px]">
             <div className="w-full h-[44px] bg-green-100">
-              <div>
+              <div className="">
                 <Image 
                   src="/tabiashi_icon.svg"
                   width={160}
@@ -16,7 +16,7 @@ export default function Home() {
                   alt="Desktop version Icon"
                 />
               </div>
-              <div>
+              <div className="flex ">
                 
               </div>
             </div>
